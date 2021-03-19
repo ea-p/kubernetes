@@ -1,4 +1,5 @@
 resources:
+  - storage.yml
   - mysql.yaml
   - firefly-iii.yaml
 secretGenerator:

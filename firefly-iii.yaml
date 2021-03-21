@@ -64,6 +64,10 @@ spec:
             secretKeyRef:
               name: firefly-iii-secrets
               key: app_key
+        - name: APP_DEBUG
+          value: true
+        - name: APP_LOG_LEVEL
+          value: debug
         - name: DB_HOST
           value: firefly-iii-mysql
         - name: DB_CONNECTION
